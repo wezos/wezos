@@ -1,0 +1,118 @@
+.bg{
+  z-index: -1;
+  background-color: indianred;
+}
+ 
+.Container{
+  background-color: gray;
+  margin-right: 20px;
+
+}
+
+.bg-colors{
+  position: relative;
+  right: 0 !important;
+}
+
+.sett-txt{
+  width: 100%;
+  font-weight: 500;
+}
+
+
+.save{
+  background: black;
+  border: blue 2px solid;
+  border-radius: 50px;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  position: absolute;
+
+}
+
+.f{
+  height: 100px;
+}
+
+.card-title{
+  text-align: center;
+}
+
+.a{
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.card-img-top{
+  height: 286px;
+}
+
+.crd-col{
+  margin-left: 50px;
+  margin-top: 20px !important;
+}
+
+.card{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.setting{
+  background-color: blanchedalmond;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.relative{
+  position: relative;
+}
+
+.btn-close{
+  right: 5px;
+  top: 10px;
+}
+
+.sett{
+  width: 40%;
+  position: fixed;
+  z-index: 999;
+  right: 0;
+  left: 0;
+  top: 20%;
+  height: 100%;
+  display: none;
+}
+
+.sett-head{
+  width: 80%;
+  text-indent: 10px;
+  border-left: cyan 2px solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .crd-col{
+      width: 50%;
+      margin-right: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+  .crd-col{
+    width: 100% !important;
+    margin-left: 0px;
+  }
+
+  .sett{
+    width: 55%;
+  }
+}
